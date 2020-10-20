@@ -10,12 +10,12 @@ public class Calculadora {
 
     }
 
-    public void multiplicacion() {
-
+    public int multiplicacion(int a, int b) {
+        return a * b;
     }
 
-    public void division() {
-
+    public int division(int a, int b) {
+        return a / b;
     }
 
 }
