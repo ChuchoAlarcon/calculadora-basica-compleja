@@ -11,10 +11,13 @@ public class Calculadora {
     }
 
     public int multiplicacion(int a, int b) {
+        System.out.println( "prueba completa" );
         return a * b;
     }
 
     public int division(int a, int b) {
+        System.out.println("jhonas suarez abasto");
+        
         return a / b;
     }
 
