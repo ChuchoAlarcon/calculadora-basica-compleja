@@ -1,11 +1,15 @@
 package Complejas;
+import java.lang.Math;
 
 public class Calcu {
-    public void factorial() {
-
+    public int factorial(int a) {
+        int f=1;
+        for(int i=1; i<=a; i++)
+            f = f*i;
+        return f;
     }
 
-    public void potencia() {
-
+    public double potencia(int a, int b) {
+        return Math.pow(a, b);
     }
 }
