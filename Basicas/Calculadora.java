@@ -2,12 +2,16 @@ package Basicas;
 
 public class Calculadora {
 
-    public void suma() {
-
+    public Calculadora(){
+        
     }
 
-    public void resta() {
+    public int suma(int a, int b) {
+        return a+b;
+    }
 
+    public int resta(int a, int b) {
+        return a-b;
     }
 
     public int multiplicacion(int a, int b) {
